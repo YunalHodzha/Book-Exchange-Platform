@@ -1,56 +1,13 @@
 import './App.css';
+import { Header } from './components/Header';
 
 function App() {
   return (
     <div >
       <>
-        {/*  Free CSS Templates from www.templatemo.com */}
+       
         <div id="templatemo_container">
-          <div id="templatemo_menu">
-            <ul>
-              <li>
-                <a href="index.html" className="current">
-                  Home
-                </a>
-              </li>
-              <li>
-                <a href="subpage.html">Search</a>
-              </li>
-              <li>
-                <a href="subpage.html">Books</a>
-              </li>
-              <li>
-                <a href="subpage.html">New Releases</a>
-              </li>
-              <li>
-                <a href="#">Company</a>
-              </li>
-              <li>
-                <a href="#">Contact</a>
-              </li>
-            </ul>
-          </div>{" "}
-          {/* end of menu */}
-          <div id="templatemo_header">
-            <div id="templatemo_special_offers">
-              <p>
-                <span>25%</span> discounts for purchase over $80
-              </p>
-              <a href="subpage.html" style={{ marginLeft: 50 }}>
-                Read more...
-              </a>
-            </div>
-            <div id="templatemo_new_books">
-              <ul>
-                <li>Suspen disse</li>
-                <li>Maece nas metus</li>
-                <li>In sed risus ac feli</li>
-              </ul>
-              <a href="subpage.html" style={{ marginLeft: 50 }}>
-                Read more...
-              </a>
-            </div>
-          </div>{" "}
+          <Header />
           {/* end of header */}
           <div id="templatemo_content">
             <div id="templatemo_content_left">
@@ -219,6 +176,7 @@ function App() {
                 </div>
                 <div className="cleaner">&nbsp;</div>
               </div>
+              
               <div className="cleaner_with_height">&nbsp;</div>
               <a href="subpage.html">
                 <img src="images/templatemo_ads.jpg" alt="ads" />

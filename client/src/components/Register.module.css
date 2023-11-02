@@ -1,8 +1,6 @@
+/* YourCSSFileName.css */
 
 .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     width: 80%;
     max-width: 600px;
     margin: 50px auto;
@@ -14,39 +12,25 @@
 }
 
 h2 {
-    color: #cbc750;; /* Dark gray */
+    color: #333; /* Dark gray */
     text-align: center;
     margin-bottom: 20px;
-    font-size: 30px;
-    margin-bottom: 50px;
 }
 
-
-
 .form-group {
-    width: 50%;
-    margin: 0 auto;
     margin-bottom: 20px;
 }
 
 label {
-    font-size: large;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: block;
     margin-bottom: 8px;
-    color: #cbc750; /* Slightly lighter than the h2 for hierarchy */
+    color: #5a5a5a; /* Slightly lighter than the h2 for hierarchy */
 }
 
 input[type="text"],
 input[type="email"],
 input[type="password"] {
-    display: flex;
-    flex-direction: column;
     width: 100%;
-    align-items: center;
-    margin: auto;
-    margin-bottom: 30px;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -56,28 +40,17 @@ input[type="password"] {
 }
 
 button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 60px;
-    margin-bottom: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    padding: 22px 33px;
-    background-color: #cbc750; /* Dark background for the button */
-    color: #2d2d2d; /* White text */
+    display: block;
+    width: 100%;
+    padding: 12px 20px;
+    background-color: #2d2d2d; /* Dark background for the button */
+    color: #fff; /* White text */
     border: none;
     border-radius: 4px;
     cursor: pointer;
     transition: background-color 0.3s;
-    font-size: large;
 }
 
 button:hover {
     background-color: #1a1a1a; /* Slightly darker on hover */
-    color: #cbc750;
-    
-    border: #ccc;
-    border-style: solid;
 }

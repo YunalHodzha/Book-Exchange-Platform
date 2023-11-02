@@ -2,8 +2,9 @@
 import { BookList } from './components/BookList';
 import { Footer } from './components/Footer';
 import { Header } from './components/Header';
-import { Login } from './components/Login';
+import { Login } from './components/Login'
 import { Register } from './components/Register';
+
 import { SideBar } from './components/SideBar';
 
 
@@ -13,9 +14,9 @@ function App() {
             <div id="container">
                 <Header />
                 <div id="content">
-                    
-                    <Login />
                     <Register />
+                    <Login />
+                    
                     {/* <SideBar />
                     <BookList /> */}
                 </div>

@@ -15,11 +15,12 @@ function App() {
             <div id="container">
                 <Header />
                 <div id="content">
+                    <SideBar />
+                    <BookList />
 
                     <Login />
                     <Register />
-                    {/* <SideBar />
-                    <BookList /> */}
+
                 </div>
                 <Footer />
             </div>

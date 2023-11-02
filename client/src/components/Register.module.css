@@ -15,6 +15,7 @@ h2 {
     color: #333; /* Dark gray */
     text-align: center;
     margin-bottom: 20px;
+  
 }
 
 .form-group {
@@ -30,7 +31,7 @@ label {
 input[type="text"],
 input[type="email"],
 input[type="password"] {
-    width: 100%;
+    width: 1%;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;

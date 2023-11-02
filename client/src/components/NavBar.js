@@ -1,7 +1,9 @@
+
+
 export const NavBar = () => {
     return (
         <>
-            <div id="templatemo_menu">
+            <div id="nav-bar">
                 <ul>
                     <li>
                         <a href="index.html" className="current">
@@ -9,19 +11,22 @@ export const NavBar = () => {
                         </a>
                     </li>
                     <li>
-                        <a href="subpage.html">Search</a>
+                        <a href="#">Search</a>
                     </li>
                     <li>
-                        <a href="subpage.html">Books</a>
+                        <a href="#">Books</a>
                     </li>
                     <li>
-                        <a href="subpage.html">New Releases</a>
+                        <a href="#">Profile</a>
                     </li>
                     <li>
-                        <a href="#">Company</a>
+                        <a href="#">Login</a>
                     </li>
                     <li>
-                        <a href="#">Contact</a>
+                        <a href="#">Logout</a>
+                    </li>
+                    <li>
+                        <a href="#">Register</a>
                     </li>
                 </ul>
             </div>{" "}

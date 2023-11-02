@@ -6,8 +6,8 @@ export const Header = () => {
             <NavBar />
 
             {/* end of menu */}
-            <div id="templatemo_header">
-                <div id="templatemo_special_offers">
+            <div id="header">
+                {/* <div id="templatemo_special_offers">
                     <p>
                         <span>25%</span> discounts for purchase over $80
                     </p>
@@ -24,7 +24,7 @@ export const Header = () => {
                     <a href="subpage.html" style={{ marginLeft: 50 }}>
                         Read more...
                     </a>
-                </div>
+                </div> */}
             </div>{" "}
         </>)
 }

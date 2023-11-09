@@ -2,7 +2,7 @@
 import { BookList } from './components/BookList';
 import { Footer } from './components/Footer';
 import { Header } from './components/Header';
-import { Login } from './components/Login'
+import Login from './components/Login'
 import { Register } from './components/Register';
 
 
@@ -16,7 +16,7 @@ function App() {
                 <Header />
                 <div id="content">
                     <SideBar />
-                    <BookList />
+                    {/* <BookList /> */}
 
                     <Login />
                     <Register />

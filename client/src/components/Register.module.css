@@ -1,6 +1,9 @@
-/* YourCSSFileName.css */
+/* Register.module.css */
 
-.container {
+.registerContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 80%;
     max-width: 600px;
     margin: 50px auto;
@@ -11,27 +14,36 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-h2 {
-    color: #333; /* Dark gray */
+.registerTitle {
+    color: #cbc750; /* Styled to match the initial theme */
     text-align: center;
-    margin-bottom: 20px;
-  
+    font-size: 30px;
+    margin-bottom: 50px;
 }
 
-.form-group {
+.registerFormGroup {
+    width: 100%; /* Adjusted width to match the style */
+    margin: 0 auto;
     margin-bottom: 20px;
 }
 
-label {
-    display: block;
+.registerLabel {
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-bottom: 8px;
-    color: #5a5a5a; /* Slightly lighter than the h2 for hierarchy */
+    color: #cbc750; /* Slightly lighter than the title for hierarchy */
 }
 
-input[type="text"],
-input[type="email"],
-input[type="password"] {
-    width: 1%;
+.registerInput {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    width: 250px; /* Adjusted width to fill the form-group */
+    align-items: center;
+    margin: auto;
+    margin-bottom: 30px;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -40,18 +52,28 @@ input[type="password"] {
     color: #333;
 }
 
-button {
-    display: block;
-    width: 100%;
-    padding: 12px 20px;
-    background-color: #2d2d2d; /* Dark background for the button */
-    color: #fff; /* White text */
+.registerButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 22px 33px;
+    background-color: #cbc750; /* Dark background for the button */
+    color: #2d2d2d; /* White text */
     border: none;
     border-radius: 4px;
     cursor: pointer;
     transition: background-color 0.3s;
+    font-size: large;
 }
 
-button:hover {
+.registerButton:hover {
     background-color: #1a1a1a; /* Slightly darker on hover */
+    color: #cbc750;
+    border: #ccc;
+    border-style: solid;
 }
